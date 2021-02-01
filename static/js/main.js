@@ -23,3 +23,16 @@ if ($.browser.android) {
     'font-size': '50px'
   })
 }
+
+function isFacebookApp() {
+  var ua = navigator.userAgent || navigator.vendor || window.opera;
+  return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
+} 
+
+if(isFacebookApp()){
+  $('#browser').text('opened on facebook')
+
+  $('html').css({
+    'font-size': '16px'
+  })
+}
