@@ -1,6 +1,10 @@
 @import url("/css/header.css");
 @import url("/css/footer.css");
 
+html {
+  font-size: 16px;
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -65,7 +69,7 @@ input:focus {
 }
 
 .page-title {
-  heize: 2.2rem;
+  font-size: 2.2rem;
   text-align: center;
   margin: 1rem auto 6rem auto;
 }
@@ -112,13 +116,13 @@ input:focus {
 
 @media only screen and  (max-width: 2000px) {
   html {
-    font-size: 22px;
+    font-size: x-large;
   }
 }
 
 @media only screen and  (max-width: 1800px) {
   html {
-    font-size: 20px;
+    font-size: large;
   }
 }
 
@@ -136,24 +140,23 @@ input:focus {
 
 @media only screen and  (max-width: 980px) {
   html {
-    font-size: 14px;
+    font-size: normal;
   }
 }
 
 @media only screen and  (max-width: 480px) {
+  html {
+    font-size: small;
+  }
+
   .page-title {
     font-size: 1.9rem;
   }
 }
-
+/* 
 @media only screen and  (max-width: 340px) {
   html {
     font-size: 12px;
   }
-}
+} */
 
-@media only screen and  (max-width: 235px) {
-  html {
-    font-size: 10px;
-  }
-}
