@@ -32,7 +32,7 @@ function isFacebookApp() {
 if(isFacebookApp()){
   
   $('html').css({
-    'font-size': '12px'
+    'font-size': '6px'
   })
   $('#browser').text(`on facebook, ${$('html').css('font-size')}`);
 }
