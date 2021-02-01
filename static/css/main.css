@@ -1,9 +1,9 @@
 @import url("/css/header.css");
 @import url("/css/footer.css");
 
-/* html {
+html {
   font-size: 16px;
-} */
+}
 
 body {
   height: 100%;
@@ -108,7 +108,7 @@ input:focus {
  
 /* media queries */
 
-/* @media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 2000px) {
   html {
     font-size: 24px;
   }
@@ -152,11 +152,5 @@ input:focus {
   .page-title {
     font-size: 1.9rem;
   }
-} */
-/* 
-@media only screen and  (max-width: 340px) {
-  html {
-    font-size: 12px;
-  }
-} */
+}
 

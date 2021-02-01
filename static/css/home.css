@@ -98,7 +98,7 @@
   font-size: 1.5rem;
   margin: 1em auto 0 auto;
   display: flex;
-  height: 7rem;
+  height: 6em;
   align-items: center;
   justify-content: center;
   background: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611244036/medea/home/vdiqn76ektcc7ejxserb.png') no-repeat center;
@@ -398,14 +398,13 @@
   .choose-us-box h4 { font-size: 1.1rem; }
 
   .moreinfo-box a {
-    width: 12.5em;
     font-size: 1.2rem;
   }
 
   .moreinfo-box p { font-size: 1rem; }
 
   .moreinfo-box a span {
-    padding-top: 0.8rem;
+    padding-top: 0.6em;
   }
 
   .partners-list {
