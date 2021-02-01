@@ -15,3 +15,5 @@ $(".arrow-up").on('click', function () {
     scrollTop: 0
   }, 1000);
 });
+
+console.log(navigator);

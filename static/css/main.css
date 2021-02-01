@@ -2,6 +2,8 @@
 @import url("/css/footer.css");
 
 body {
+  height: 100%;
+  width: 100%;
   visibility: hidden;
   color: #444146;
   font-weight: 100;
@@ -9,7 +11,6 @@ body {
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
 }
-
 
 .app-main {
   min-height: 100vh;
@@ -64,7 +65,7 @@ input:focus {
 }
 
 .page-title {
-  font-size: 2.2rem;
+  heize: 2.2rem;
   text-align: center;
   margin: 1rem auto 6rem auto;
 }
@@ -103,55 +104,55 @@ input:focus {
  
 /* media queries */
 
-@media (min-width: 2000px) {
+@media only screen and (min-width: 2000px) {
   html {
     font-size: 24px;
   }
 }
 
-@media (max-width: 2000px) {
+@media only screen and  (max-width: 2000px) {
   html {
     font-size: 22px;
   }
 }
 
-@media (max-width: 1800px) {
+@media only screen and  (max-width: 1800px) {
   html {
     font-size: 20px;
   }
 }
 
-@media (max-width: 1600px) {
+@media only screen and  (max-width: 1600px) {
   html {
     font-size: 17px;
   }
 }
 
-@media (max-width: 1400px) {
+@media only screen and  (max-width: 1400px) {
   html {
     font-size: 15px;
   }
 }
 
-@media (max-width: 980px) {
+@media only screen and  (max-width: 980px) {
   html {
     font-size: 14px;
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and  (max-width: 480px) {
   .page-title {
     font-size: 1.9rem;
   }
 }
 
-@media (max-width: 340px) {
+@media only screen and  (max-width: 340px) {
   html {
     font-size: 12px;
   }
 }
 
-@media (max-width: 235px) {
+@media only screen and  (max-width: 235px) {
   html {
     font-size: 10px;
   }
