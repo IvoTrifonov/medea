@@ -16,4 +16,4 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
-console.log(navigator);
+$('#font-size').text($('html').css('font-size'))
