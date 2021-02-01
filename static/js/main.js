@@ -29,7 +29,7 @@ function isFacebookApp() {
   return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
 } 
 
-if(!isFacebookApp()){
+if(isFacebookApp()){
   
   $('html').css({
     'font-size': '12px'
