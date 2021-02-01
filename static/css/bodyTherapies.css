@@ -1,0 +1,104 @@
+.procedures-list-title::before {
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145751/medea/procedures/body-therapies/ayedsplvldutcosml4rk.png');
+  left: -1.4%;
+  width: 2.65em;
+  height: 2.65em;
+  top: 55%;
+  transform: translateY(-51%);
+}
+
+.procedures-list-wrapper > h2 {
+  font-weight: normal;
+  font-size: 2.1rem;
+  color: #fda9ba;
+  text-shadow: 2px 1px 2px rgba(105, 47, 61, 0.5);
+  text-align: center;
+}
+
+@media (max-width: 580px) {
+  /* .procedures-list-wrapper > h2 {
+    margin-bottom: 3.5em;
+    font-size: 1.7rem;
+  } */
+}
+
+.manual .procedure-wrapper:first-child  .procedure::before {
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611173726/medea/procedures/body-therapies/gou6jopaoyt13jvqiizd.png');
+}
+
+.manual .procedure-wrapper:nth-child(2) .procedure::before {
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/kzzpctdtp7srlpmz6rwc.png');
+}
+
+.manual .procedure-wrapper:nth-child(3) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/k227igfxvpjmfx6ejtzz.png');
+}
+
+.manual .procedure-wrapper:nth-child(4) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/dqfdyqufyowshodppysy.png');
+}
+
+.manual .procedure-wrapper:nth-child(5) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611164962/medea/procedures/body-therapies/n1yiiwzolguhjqbd17np.png');
+}
+
+.manual .procedure-wrapper:nth-child(6) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611161433/medea/procedures/body-therapies/dkaf5ocrbd3bxdnwrjhb.png');
+}
+
+.manual .procedure-wrapper:nth-child(7) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/gcsoswjnrpz0bgsjtw9o.png');
+}
+
+.manual .procedure-wrapper:nth-child(8) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/nzoktvrodsocrqzq4l5j.png');
+}
+
+.manual .procedure-wrapper:nth-child(9) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145952/medea/procedures/body-therapies/yf7vhns9oiuwjgbsrsid.png');
+}
+
+.manual .procedure-wrapper:nth-child(10) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/fwxywebq94nonpmgjxbi.png');
+}
+
+.manual .procedure-wrapper:nth-child(11) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145952/medea/procedures/body-therapies/nfzoju3yqnkwqxpqlfi0.png');
+}
+
+.manual .procedure-wrapper:nth-child(12) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611824931/medea/procedures/body-therapies/yafjt4i8mgr7ocaatmbq.png');
+}
+
+.aparat .procedure-wrapper:first-child .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/pcprdapzncpjn3q5vffo.png');
+}
+
+.aparat .procedure-wrapper:nth-child(2) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611163707/medea/procedures/body-therapies/wokuhsszifhxvrzv030w.png');
+}
+
+.aparat .procedure-wrapper:nth-child(3) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611161133/medea/procedures/body-therapies/qe9rrdh8ggbuqbsz0jsw.png');
+}
+
+.weight-loss .procedure-wrapper:first-child .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/sjspvbitsh3xjtfkaxco.png');
+}
+
+.weight-loss .procedure-wrapper:nth-child(2) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/sq3s9ahrih9widxvk0il.png');
+}
+
+.weight-loss .procedure-wrapper:nth-child(3) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145952/medea/procedures/body-therapies/qbterarsx0kz2xrnvvvw.png');
+}
+
+.weight-loss .procedure-wrapper:nth-child(4) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145953/medea/procedures/body-therapies/lko6nmqsbigmvpyw1haq.png');
+}
+
+.weight-loss .procedure-wrapper:nth-child(5) .procedure::before{
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611163889/medea/procedures/body-therapies/nbzsccgcm6h8rzbbyfcr.png');
+}
+

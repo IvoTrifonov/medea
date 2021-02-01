@@ -1,0 +1,142 @@
+<div class="home-wrapper">
+  <div class="short-desc">
+    <p>Казват, че красотата ще спаси света, а ние, от Медико-естетичен център <span>"Медея"</span> правим
+      всичко необходимо, за да запазим младостта и красотата, и да живеем в един по-добър и по-щастлив свят!</p>
+  </div>
+
+  <div class="services-container">
+    <h1>Част от нашите услуги</h1>
+    <section class="services-list">
+      <a href="/procedures/facetherapies" data-aos="fade-right" data-aos-once="false" class="service-box face">
+        <h3>Терапии за лице</h3>
+      </a>
+      <a href="/procedures/bodytherapies" data-aos="fade-down" data-aos-once="false" class="service-box massages">
+        <h3>Масажи</h3>
+      </a>
+      <a href="/photoepilation" data-aos="fade-up" data-aos-once="false" class="service-box photoepilation">
+        <h3>Фотоепилация</h3>
+      </a>
+      <a href="/procedures/eyelashes" data-aos="fade-down" data-aos-once="false" class="service-box eyelashes">
+        <h3>Ламиниране на мигли</h3>
+      </a>
+    </section>
+  </div>
+
+  <div class="moreinfo-box">
+    <p>Повече информация за процедурите ни и цени може да намерите тук:</p>
+    <a href="/procedures"><span>Процедури</span></a>
+  </div>
+
+  <div class="promotion-banner">
+    <div class="promotion-info">
+      <h1>ПРОМОЦИЯ !</h1>
+      <h3 class="title">{{promotion.title}}</h3>
+      <p class="price"><span>{{promotion.newPrice}}</span><span>{{promotion.oldPrice}}</span> лв.</p>
+      <p>Важи за периода {{promotion.validFrom}} - {{promotion.validTo}}</p>
+      <p>Запишете своя час сега: <span>0889 508 530</span></p>
+    </div>
+  </div>
+
+  <div class="choose-us">
+    <h1>Защо да изберете нас?</h1>
+    <section class="choose-us-box" data-aos="zoom-in" data-aos-once="false">
+      <p>В Медико-естетичен център "Медея" предлагаме <span>висококачествени</span> козметични услуги с иновативна
+        апаратура и
+        козметика на достъпни цени.
+      </p>
+    </section>
+    <section class="choose-us-box" data-aos="zoom-in" data-aos-delay="300" data-aos-once="false">
+      <p>Подхождаме <span>индивидуално</span> с всеки клиент и постигаме резултат без да причиняваме физическа болка и
+        дискомфорт.
+        Клиентите ни се радват на гладко, красиво и неостаряващо лице, стегната и изваяна фигура, без риск за здравето
+        си и с дълготраен резултат.
+      </p>
+    </section>
+    <section class="choose-us-box" data-aos="zoom-in" data-aos-delay="600" data-aos-once="false">
+      <p>Използвайки нашите услуги и козметични продукти Вие може да бъдете сигурни, че всеки един от тях е съобразен с
+        последните <span>тенденции и технологии</span> в козметичния бранш, както и е плод на дългогодишни проучвания,
+        гарантиращи Ви
+        желания ефект.</p>
+    </section>
+    <section class="choose-us-box" data-aos="zoom-in" data-aos-delay="900" data-aos-once="false">
+      <p>Държим на <span>чистотата</span>, както в салона, така и по време на работа.
+        Стремим се да Ви осигурим удобно и приятно преживяване по време на процедура, така че да се почувствате
+        обгрижени.
+      </p>
+    </section>
+  </div>
+
+  <div class="home-gallery">
+    <h2>Галерия</h2>
+    <ul id="lightSlider">
+      <li>
+        <img
+          src="https://res.cloudinary.com/dd2an9hq9/image/upload/v1611242623/medea/home/home-gallery/cchetyng34bkgcfj5wd1.jpg"
+          alt="">
+      </li>
+      <li>
+        <img
+          src="https://res.cloudinary.com/dd2an9hq9/image/upload/v1611242651/medea/home/home-gallery/m5zqlouqjoso6s6ceyz6.jpg"
+          alt="">
+      </li>
+      <li>
+        <img
+          src="https://res.cloudinary.com/dd2an9hq9/image/upload/v1611242643/medea/home/home-gallery/wnqr9gbiiivzojox8upi.jpg"
+          alt="">
+      </li>
+      <li>
+        <img
+          src="https://res.cloudinary.com/dd2an9hq9/image/upload/v1611242611/medea/home/home-gallery/eqzm9qpln17aywd9lhtg.jpg"
+          alt="">
+      </li>
+      <li>
+        <img
+          src="https://res.cloudinary.com/dd2an9hq9/image/upload/v1611242634/medea/home/home-gallery/oitgb0kkivsfra5cljvt.jpg"
+          alt="">
+      </li>
+    </ul>
+  </div>
+
+  <div class="voucher-banner">
+    <div class="voucher-info">
+      <h2>Търсите перфектния подарък за любим човек?</h2>
+      <p>Предлагаме подаръчни ваучери на стойност по Ваш избор!</p>
+    </div>
+  </div>
+
+  <div class="last-post-wrapper">
+    <h2>Актуално</h2>
+    <div class="post-wrapper">
+      <h2 class="post-title">{{post.title}}</h2>
+      <img src="{{post.imageURL}}" alt="" class="post-image">
+      <ul class="post-description-list">
+        {{#each post.description}}
+        <li>
+          <p>{{this}}</p>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+
+  <div class="moreinfo-box">
+    <a href="/news"><span>Още новини</span></a>
+  </div>
+
+  <div class="partners">
+    <h2>Партньори</h2>
+    <ul class="partners-list">
+      <li><img src="https://res.cloudinary.com/dd2an9hq9/image/upload/v1611833321/medea/home/ohifr0zvrficjvo1o3o7.jpg" alt=""></li>
+      <li><img src="https://res.cloudinary.com/dd2an9hq9/image/upload/v1611135855/medea/home/him3bizje0lbhelnb7fo.png" alt=""></li>
+      <li><img src="https://res.cloudinary.com/dd2an9hq9/image/upload/v1611832444/medea/home/i0q81tcbnzib7psiryma.png"alt=""></li>
+      <li><img src="https://res.cloudinary.com/dd2an9hq9/image/upload/v1611832627/medea/home/lafbuwozkymvewueygzw.png"alt=""></li>
+    </ul>
+  </div>
+</div>
+
+<link rel="stylesheet" href="/css/post.css">
+<link href="/css/home.css" type="text/css" rel="stylesheet">
+<link type="text/css" rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script src="/js/home.js"></script>

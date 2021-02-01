@@ -1,0 +1,146 @@
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+body {
+  visibility: hidden;
+  color: #444146;
+  font-weight: 100;
+  font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+
+.app-main {
+  min-height: 100vh;
+  margin: 1.5em 0;
+}
+
+a {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+input,
+textarea,
+button,
+select,
+a,
+div,
+span {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 1rem auto 6rem auto;
+}
+
+.url a,
+.procedures-list p a {
+  font-family: 'rubik', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+ }
+ ::-webkit-scrollbar-thumb {
+  background: linear-gradient(13deg, #f0b2bf 14%,#e4ccff 64%);
+ }
+ ::-webkit-scrollbar-track{
+  background: #FFFAFB;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+ }
+
+.error-page-wrapper {
+  text-align: center;
+  margin: 0 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10em;
+  justify-content: space-around;
+}
+
+.error-page-wrapper h2,
+.error-page-wrapper h4 {
+  font-weight: 100;
+}
+ 
+/* media queries */
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 2000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1800px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 980px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 1.9rem;
+  }
+}

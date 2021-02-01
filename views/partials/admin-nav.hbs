@@ -1,0 +1,19 @@
+<aside>
+  <nav>
+    <ul>
+      <li><a href="/admin/posts">Статии</a></li>
+      <li><a href="/admin/posts/create">Нова статия</a></li>
+      <li><a href="/admin//promotion/create">Нова промоция</a></li>
+      <li class="exit-admin">Изход</li>
+    </ul>
+  </nav>
+</aside>
+
+<script>
+  $('.exit-admin').on('click', function () {
+    fetch('/admin/logout')
+      .then(res => {
+        window.location.reload();
+      })
+  });
+</script>

@@ -1,0 +1,31 @@
+<div class="admin-wrapper">
+  {{> admin-nav}}
+
+  <section class="admin-content">
+    <h2>Всички статии ({{postsLength}})</h2>
+    <ul class="posts-list">
+      {{#each posts}}
+      <li class="post">
+        <h3>{{title}}</h3>
+        <p class="createdAt">{{createdAt}}</p>
+        <ul class="post-desc-list">
+          <div>
+            <img src="{{imageURL}}" />
+            {{#each description}}
+            <li>
+              <p>{{this}}</p>
+            </li>
+            {{/each}}
+          </div>
+        </ul>
+        <div class="post-btns">
+          <a class="edit" href="/admin/posts/edit/{{id}}">редактирай</a>
+          <a class="delete" href="/admin/posts/delete/{{id}}">изтрий</a>
+        </div>
+      </li>
+      {{/each}}
+    </ul>
+  </section>
+</div>
+
+<link rel="stylesheet" href="/css/admin.css">

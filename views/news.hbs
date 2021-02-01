@@ -1,0 +1,23 @@
+<div class="news-page">
+  <h1 class="page-title">Актуално</h1>
+
+  <div data-aos="fade-up" class="news-wrapper">
+    <ul class="posts-list">
+      {{#each posts}}
+      <li class="post-item">
+        <a href="/news/{{id}}" class="post-link">
+          <div class="post-img-wrapper">
+            <img src="{{imageURL}}" alt="" class="post-img">
+          </div>
+          <h4 class="post-title">{{title}}</h4>
+          <p class="createdAt">{{createdAt}}</p>
+          <p class="post-desc">{{description}}</p>
+          <span>Виж повече</span>
+        </a>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
+
+<link rel="stylesheet" href="/css/news.css">

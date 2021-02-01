@@ -1,0 +1,13 @@
+<div class="post-page">
+  <div class="post-wrapper">
+    <h2 class="post-title">{{post.title}}</h2>
+    <img src="{{post.imageURL}}" alt="" class="post-image">
+    <ul class="post-description-list">
+      {{#each post.description}}
+        <li><p>{{this}}</p></li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
+
+<link rel="stylesheet" href="/css/post.css">

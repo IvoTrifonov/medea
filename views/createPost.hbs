@@ -1,0 +1,31 @@
+<div class="admin-wrapper">
+  {{> admin-nav}}
+
+  <section class="admin-content">
+    <form action="/admin/posts/create" id="articleForm" name="articleCreate" method="POST">
+      <fieldset>
+        <h2>Нова Статия</h2>
+        <p class="loginErr">{{message}}</p>
+
+        <label for="title">Заглавие:</label>
+        <input id="title" type="text" name="title" placeholder="Заглавие...">
+
+        <label for="description">Описание:</label>
+        <textarea id="description" type="text" name="description" placeholder="Описание..." cols="30"
+          rows="20"></textarea>
+
+        <label class="file-upload-container" for="file-upload">
+          <input name="file" type="file" class="imageupload" data-cloudinary-field="image_id" 
+            data-form-data="[upload-preset-and-other-upload-options-as-html-escaped-JSON-data]"></input>
+        </label>
+
+        <button id="submit" disabled type="submit">Създай</button>
+      </fieldset>
+    </form>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/admin.js"></script>
+<link rel="stylesheet" href="/css/admin.css">

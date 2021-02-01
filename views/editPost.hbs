@@ -1,0 +1,24 @@
+<div class="admin-wrapper">
+   {{> admin-nav}}
+
+   <section class="admin-content">
+      {{#if post}}
+      <form id="edintArticle" action="/admin/posts/edit/{{post.id}}" name="login" method="POST">
+      <fieldset>
+        <h2>Редактирай Статия</h2>
+
+        <label for="title">Заглавие:</label>
+        <input id="title" type="text" name="title" value="{{post.title}}">
+
+        <label for="description">Описание:</label>
+        <textarea id="description" type="text" name="description" placeholder="Описание..." cols="30"
+          rows="30">{{post.description}}</textarea>
+
+        <button type="submit">Запази</button>
+      </fieldset>
+    </form>
+      {{/if}}
+   </section>
+</div>
+
+<link rel="stylesheet" href="/css/admin.css">

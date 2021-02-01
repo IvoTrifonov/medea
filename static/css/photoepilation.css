@@ -1,0 +1,44 @@
+.procedures-list-title {  margin-bottom: 1.5em; }
+
+.procedures-list-title::before {
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145173/medea/procedures/gbyxf8l7dtqoik3pzuvj.png');
+}
+
+.short-desc {
+  line-height: 1.5rem;
+  text-align: center;
+  width: 60%;
+  margin: 2em 0;
+}
+
+.procedure .procedure-description > p {
+  padding-left: 8em;
+  margin-bottom: 1em;
+}
+
+.procedure::before {
+  top: -3.5em;
+  left: -5em;
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145173/medea/procedures/bvnbtvkjyv81gtf4xic3.png');
+}
+
+@media (max-width: 580px) {
+  .procedure .procedure-description > p {
+    padding-left: 0;
+  }
+
+  .procedure {
+    margin-top: 6em;
+  }
+
+  .short-desc {
+    width: 90%;
+  }
+
+  .procedure::before {
+    top: -7em;
+    left: 45%;
+    padding-right: 3.6em;
+    transform: translateX(-45%);
+  }  
+}

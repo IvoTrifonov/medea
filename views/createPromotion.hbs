@@ -1,0 +1,32 @@
+<div class="admin-wrapper">
+  {{> admin-nav}}
+
+  <section class="admin-content">
+    <form action="/admin/promotion/create" name="promotionCreate" method="POST">
+      <fieldset>
+        <h2>Нова промоция</h2>
+
+        <label for="title">Заглавие:</label>
+        <input id="title" type="text" name="title" placeholder="Заглавие...">
+
+        <label for="oldPrice">Стара цена</label>
+        <input type="number" name="oldPrice" id="oldPrice">
+
+        <label for="newPrice">Нова цена</label>
+        <input type="number" name="newPrice" id="newPrice">
+
+        <label for="validFrom">Валидна от</label>
+        <input type="datetime-local" name="validFrom" id="validFrom">
+
+        <label for="validTo">Валидна до</label>
+        <input type="datetime-local" name="validTo", id="validTo">
+
+        <button id="submit" disabled type="submit">Създай</button>
+      </fieldset>
+    </form>
+  </section>
+
+</div>
+
+<link rel="stylesheet" href="/css/admin.css">
+<script src="/js/promotion.js"></script>

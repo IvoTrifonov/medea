@@ -1,0 +1,34 @@
+.login-wrapper fieldset {
+  white-space: nowrap;
+  position: relative;
+  border-radius: 1em;
+  width: 18rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-wrapper fieldset > * {
+  padding: 0.3em;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.login-wrapper button {
+  width: 60%;
+  margin: 1.5em auto;
+}
+
+.login-wrapper .loginErr {
+  position: absolute;
+  color: red;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.login-wrapper label::after {
+  content: ' *';
+  color: red;
+  font-size: 1.2em;
+}

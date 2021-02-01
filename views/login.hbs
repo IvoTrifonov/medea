@@ -1,0 +1,20 @@
+<div class="login-wrapper">
+    <form id="loginform" action="/admin/login" name="login" method="POST">
+      <fieldset>
+        <h1>Вход</h1>
+        <p class="loginErr">{{message}}</p>
+        
+        <label for="username">Име</label>
+        <input id="username" type="text" name="username" placeholder="JustMyself123..." value="{{username}}">
+
+        <label for="usernmae">Парола</label>
+        <input id="password" type="password" name="password" placeholder="********">
+
+        <button id="submit" disabled="true" type="submit">Вход</button>
+      </fieldset>
+    </form>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/login.js"></script>
+<link href="/css/login.css" type="text/css" rel="stylesheet">

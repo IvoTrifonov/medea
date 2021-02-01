@@ -1,0 +1,18 @@
+<div class="error-page-wrapper">
+  <h2 class="error-page-msg">Търсената от вас страница не е намерена.</h2>
+  <h4 class="redirect-msg">Ще бъдете пренасочени след <span>5</span> секунди</h4>
+</div>
+
+<script>
+  let secondsElement = $('.error-page-wrapper h4 span')[0];
+
+  let interval = setInterval(function () {
+    let seconds = +secondsElement.innerHTML;
+    secondsElement.innerHTML = seconds - 1;
+    console.log(seconds);
+    if (seconds === 1) {
+      clearInterval(interval);
+      window.location.replace('/');
+    }
+  }, 1000)
+</script>

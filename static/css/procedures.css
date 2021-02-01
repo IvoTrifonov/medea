@@ -1,0 +1,168 @@
+.procedures-wrapper {
+  margin: 2em 0 5em 0;
+  background-image: linear-gradient(to bottom, #ffffff, #fbf9fe, #faf2fb, #faebf7, #fce4f0, #fce4f0, #fce4f0, #fce4f0, #faebf7, #faf2fb, #fbf9fe, #ffffff);
+}
+
+.procedures-info {
+  padding: 6em 1em 2em 1em;
+  display: grid;
+  align-items: flex-start;
+  justify-content: center;
+  grid-template-columns: 22rem 25rem 22rem;
+  grid-template-rows: auto;
+}
+
+.procedures-list {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9em 1em 1em 1em; 
+  border: 2px solid #FBA4B7;
+  border-radius: 2em;
+  background: #ffffff;
+}
+
+.procedures-list::before {
+  position: absolute;
+  content: "";
+  top: -5em;
+  width: 13em;
+  height: 13em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.body {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.body::before {
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611144963/medea/procedures/lkm39qqqbcn4mcpawdjn.png')
+}
+
+.face { 
+  margin-top: -2em;
+}
+
+.face::before {
+  top: -7.5em;
+  left: 24%;
+  width: 16.5em;
+  height: 15em;
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611144963/medea/procedures/eq1gxx8rycqvknpodqyo.png')
+}
+
+.eyelashes {
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.eyelashes::before {
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611144963/medea/procedures/ztpvgcrkvxxzax6byudx.png')
+}
+
+.procedure-title {
+  margin: 0 0.8em 1em 0.8em;
+  text-decoration: underline;
+}
+
+.procedure-title a {
+  font-weight: bold;
+}
+
+.procedures-list p a:hover {
+  border-bottom: 1px solid gray;
+}
+
+.procedures-list p {
+  margin: 1.5% 0;
+  color: #999999;
+}
+
+@media (max-width: 980px) {
+  .procedures-info {
+    grid-template-columns: 37rem;
+    grid-template-rows: auto;
+    grid-row-gap: 10em;
+  }
+
+  .body { order: 2; }
+
+  .face { 
+    margin-top: 0;
+    order: 1;
+  }
+  
+  .eyelashes { order: 3; }
+
+  .body,
+  .eyelashes {
+    border-right: 2px solid #FBA4B7;
+    border-left: 2px solid #FBA4B7;
+    border-radius: 2em;
+  }
+
+  .body::before {
+    background-position: left;
+    top: -12.5%;
+    padding-right: 5.5em;
+    width: 17em;
+    height: 16em;
+    background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611144963/medea/procedures/kt1yuubqqyb0elz0seps.png')
+  }
+  
+  .face::before {
+    background-position: right;
+    padding-left: 5.6em;
+    height: 16.2em;
+    top: -13%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .eyelashes::before {
+    background-position: right;
+    top: -38%;
+    padding-left: 2.5em;
+    width: 18em;
+    height: 15em;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611144963/medea/procedures/xrjxtjmc9m47n2we3rs7.png')
+  }
+}
+
+@media (max-width: 580px) {
+  .procedures-info { grid-template-columns: 98%; }
+}
+
+@media (max-width: 480px) {
+  .procedures-info { padding-top: 2em; grid-row-gap: 8em;}
+  .procedures-list { border: 2px solid #FBA4B7; }
+  
+  .eyelashes::before {
+    top: -29%;
+    width: 13.5em;
+    height: 12em;
+  }
+
+  .body::before {
+    top: -10%;
+    padding-right: 2.7em;
+    width: 15em;
+    height: 12.5em;
+  }
+
+  .face::before {
+    padding-left: 3em;
+    width: 14.5em;
+    height: 13em;
+    top: -6em;
+  }
+}
