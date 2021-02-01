@@ -16,4 +16,10 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
-$('#font-size').text($('html').css('font-size'))
+$('#browser').text($.browser.android)
+
+if ($.browser.android) {
+  $('html').css({
+    'font-size': '50px'
+  })
+}
