@@ -18,17 +18,17 @@ $(".arrow-up").on('click', function () {
 
 $('#browser').text($.browser.android)
 
-if ($.browser.android) {
-  $('html').css({
-    'font-size': '50px'
-  })
-}
-
 function isFacebookApp() {
   var ua = navigator.userAgent || navigator.vendor || window.opera;
   return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
 } 
 
+$('#browser').text(`font size -> ${$('html').css('font-size')}`)
+
 if(isFacebookApp()){
-  $('#browser').text(`on facebook!, ${$('html').css('font-size')}`);
+  $('html').css({
+    'font-size': '1rem'
+  })
 }
+
+
