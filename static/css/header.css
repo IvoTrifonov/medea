@@ -70,7 +70,7 @@
   white-space: nowrap;
   text-shadow: 2px 2px 3px rgba(83, 83, 83, 0.50);
   width: 10em;
-  color: #fff;
+  color: rgb(253, 253, 253);
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -224,7 +224,7 @@
 
   .appointment-box {
     align-items: center;
-    justify-content: space-;
+    justify-content: space-between;
     font-size: 1rem;
   }
 
