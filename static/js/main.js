@@ -29,10 +29,10 @@ function isFacebookApp() {
   return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
 } 
 
-if(isFacebookApp()){
-  $('#browser').text('opened on facebook')
-
+if(!isFacebookApp()){
+  
   $('html').css({
-    'font-size': '16px'
+    'font-size': '12px'
   })
+  $('#browser').text(`on facebook, ${$('html').css('font-size')}`);
 }
