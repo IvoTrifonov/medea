@@ -18,20 +18,26 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
-let pixels = screen.width < 480 ? 14 : 16;
 
-$('html').css({
-  'font-size': `${pixels}px`
-})
 
-var fs = parseFloat($('html').css('font-size'));
+if (isFacebookApp()) {
+  let pixels = screen.width < 480 ? 14 : 16;
 
-if (fs !== pixels) {
-  const dif = fs / pixels;
-  const result = pixels / dif;
-  $('html').css('font-size', `${result}px`);
+  $('html').css({
+    'font-size': `${pixels}px`
+  })
+
+  var fs = parseFloat($('html').css('font-size'));
+
+  if (fs !== pixels) {
+    const dif = fs / pixels;
+    const result = pixels / dif;
+    $('html').css('font-size', `${result}px`);
+  }
 }
-
-
-
 $('#browser').text(`font size => ${$('html').css('font-size')}`);
+
+function isFacebookApp() {
+  var ua = navigator.userAgent || navigator.vendor || window.opera;
+  return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
+}
