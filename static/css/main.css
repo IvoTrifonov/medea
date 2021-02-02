@@ -2,14 +2,14 @@
 @import url("/css/footer.css");
 
 html,body { 
-  text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
  }
 
 html {
-  font-size: 12pt;
+  font-size: 16px;
 }
 
 body {
@@ -116,49 +116,48 @@ input:focus {
  
 /* media queries */
 
-@media only screen and (min-width: 2000px) {
+@media (min-width: 2000px) {
   html {
-    font-size: 15.75pt;
+    font-size: 1.5rem;
   }
 }
 
-@media only screen and  (max-width: 2000px) {
+@media (max-width: 2000px) {
   html {
-    font-size: x-large;
+    font-size: 1.375rem;
   }
 }
 
-@media only screen and  (max-width: 1800px) {
+@media (max-width: 1800px) {
   html {
-    font-size: large;
+    font-size: 1.25rem;
   }
 }
 
-@media only screen and  (max-width: 1600px) {
+@media (max-width: 1600px) {
   html {
-    font-size: 12.75pt;
+    font-size: 1.0625rem;
   }
 }
 
-@media only screen and  (max-width: 1400px) {
+@media (max-width: 1400px) {
   html {
-    font-size: 11.25pt;
+    font-size: 0.9375rem;
   }
 }
 
-@media only screen and  (max-width: 980px) {
+@media (max-width: 980px) {
   html {
-    font-size:  10.8pt;
+    font-size: 0.875rem;
   }
 }
 
-@media only screen and  (max-width: 480px) {
+@media (max-width: 480px) {
   html {
-    font-size: 9pt;
+    font-size: 0.8125rem;
   }
 
   .page-title {
     font-size: 1.9rem;
   }
 }
-
