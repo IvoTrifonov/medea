@@ -59,7 +59,7 @@
 .contacts-wrapper>span {
   position: relative;
   display: block;
-  padding: 1.2em 0 1.2em 3.5em;
+  padding: 1.2em 0 1.2em 4rem;
   border-bottom: 2px solid #A355FC;
   border-bottom-style: dashed;
 }
@@ -130,6 +130,7 @@
 }
 
 .copyright-message {
+  margin-top: 0.5em;
   white-space: nowrap;
   color: gray;
   font-size: 0.85rem;
