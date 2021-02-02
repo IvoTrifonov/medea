@@ -20,14 +20,14 @@ $(".arrow-up").on('click', function () {
 
 
 //set font-size to 12px
-$('html').css('font-size', "10.66px")
+$('html').css('font-size', "16px")
 
-// var fs = parseFloat($('html').css('font-size'));
+var fs = parseFloat($('html').css('font-size'));
 
-// if (fs > 16) 
-// {
-//     const diff = fs - 16;
-//     $('html').css('font-size', `${16 - diff}px`);
-// }
+if (fs > 16) 
+{   
+  const dif = fs / 16;
+  $('html').css('font-size', `${16 / diff}px`);
+}
 
 $('#browser').text(`font size => ${$('html').css('font-size')}`)
