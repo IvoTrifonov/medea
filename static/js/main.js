@@ -18,8 +18,6 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
-
-//set font-size to 12px
 $('html').css('font-size', "16px");
 
 var fs = parseFloat($('html').css('font-size'));
