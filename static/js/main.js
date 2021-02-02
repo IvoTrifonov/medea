@@ -19,9 +19,6 @@ $(".arrow-up").on('click', function () {
 });
 
 
-//set font-size to 12px
-$('html').css('font-size', "16px")
-
 var fs = parseFloat($('html').css('font-size'));
 
 if (fs > 16) 

@@ -102,13 +102,13 @@ input:focus {
   font-weight: 100;
 }
  
-/* @media (min-width: 2000px) {
+@media (min-width: 2000px) {
   html {
     font-size: 24px;
   }
-} */
+}
 
-/* @media (max-width: 2000px) {
+@media (max-width: 2000px) {
   html {
     font-size: 22px;
   }
@@ -146,4 +146,4 @@ input:focus {
   .page-title {
     font-size: 1.9rem;
   }
-} */
+} 
