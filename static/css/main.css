@@ -117,7 +117,7 @@ input:focus {
  
 /* media queries */
 
-@media (min-width: 2000px) {
+/* @media (min-width: 2000px) {
   html {
     font-size: 1.5rem;
   }
@@ -161,4 +161,4 @@ input:focus {
   .page-title {
     font-size: 1.9rem;
   }
-}
+} */
