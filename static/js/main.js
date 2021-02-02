@@ -23,14 +23,14 @@ $(".arrow-up").on('click', function () {
 $('html').css('font-size', "16px")
 
 //See what font-size is computed by the webview
-var fs = parseFloat($('html').css('font-size'));
+// var fs = parseFloat($('html').css('font-size'));
 
-//If the webview is being naughty, compensate for it
-if (fs > 16) 
-{
-    const diff = fs - 16;
-    $('html').css('font-size', `${16 - diff}px`);
-}
+// //If the webview is being naughty, compensate for it
+// if (fs > 16) 
+// {
+//     const diff = fs - 16;
+//     $('html').css('font-size', `${16 - diff}px`);
+// }
 
 $('#browser').text(`font size => ${$('html').css('font-size')}`)
 
