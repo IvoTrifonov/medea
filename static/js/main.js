@@ -20,7 +20,7 @@ $(".arrow-up").on('click', function () {
 
 
 //set font-size to 12px
-$('html').css('font-size', "8px")
+$('html').css('font-size', "10.66px")
 
 // var fs = parseFloat($('html').css('font-size'));
 
