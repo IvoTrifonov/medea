@@ -2,6 +2,7 @@
 @import url("/css/footer.css");
 
 html,body, body * { 
+  max-height: 999999px;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
