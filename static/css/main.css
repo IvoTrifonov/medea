@@ -1,15 +1,6 @@
 @import url("/css/header.css");
 @import url("/css/footer.css");
 
-html {
-  font-size: 16px;
-  max-height: 999999px;
-}
-
-* {
-  max-height: 999999px;
-}
-
 body {
   height: 100%;
   width: 100%;
@@ -115,9 +106,9 @@ input:focus {
   html {
     font-size: 24px;
   }
-}
+} */
 
-@media (max-width: 2000px) {
+/* @media (max-width: 2000px) {
   html {
     font-size: 22px;
   }
@@ -140,7 +131,7 @@ input:focus {
     font-size: 15px;
   }
 }
- */
+
 
 @media (max-width: 980px) {
   html {
@@ -155,4 +146,4 @@ input:focus {
   .page-title {
     font-size: 1.9rem;
   }
-}
+} */
