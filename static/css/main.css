@@ -1,14 +1,6 @@
 @import url("/css/header.css");
 @import url("/css/footer.css");
 
-html { 
-  font-size: 1.0416666666666667vw;
-  text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
 body {
   height: 100%;
   width: 100%;
@@ -110,50 +102,43 @@ input:focus {
   font-weight: 100;
 }
  
-/* media queries */
-
-/* @media (min-width: 2000px) {
+@media (min-width: 2000px) {
   html {
-    font-size: 2rem;
+    font-size: 24px;
   }
-} */
+}
 
 @media (max-width: 2000px) {
   html {
-    font-size: 1.375rem;
+    font-size: 22px;
   }
 }
 
 @media (max-width: 1800px) {
   html {
-    font-size: 1.25rem;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 1600px) {
   html {
-    font-size: 1.0625rem;
+    font-size: 17px;
   }
 }
 
 @media (max-width: 1400px) {
   html {
-    font-size: 0.9375rem;
+    font-size: 15px;
   }
 }
 
-
-@media only screen and (max-width: 980px) {
+@media (max-width: 980px) {
   html {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
 }
 
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 0.7rem;
-  }
-
+@media (max-width: 480px) {
   .page-title {
     font-size: 1.9rem;
   }

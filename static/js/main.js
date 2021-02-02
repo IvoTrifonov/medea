@@ -18,7 +18,6 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
-$('#browser').text($.browser.android)
 
 function isFacebookApp() {
   var ua = navigator.userAgent || navigator.vendor || window.opera;
