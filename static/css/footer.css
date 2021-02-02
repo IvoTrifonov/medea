@@ -1,7 +1,7 @@
 .footer {
   margin-top: 5em;
   position: relative;
-  padding: 1em 1em 4.5rem 1em;
+  padding: 1em 1em 4.5em 1em;
   background-color: #E4CCFF;
   color: #444146;
   display: grid;
@@ -146,9 +146,9 @@
   background-size: contain;
   position: absolute;
   right: 5%;
-  top: -5rem;
-  width: 3.9rem;
-  height: 3.9rem;
+  top: -5em;
+  width: 3.9em;
+  height: 3.9em;
   cursor: pointer;
 }
 
@@ -185,7 +185,7 @@
 
   .footer-nav {
     text-align: center;
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1.5em 0;
     order: 3;
   }
 
