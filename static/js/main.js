@@ -25,7 +25,7 @@ function isFacebookApp() {
 
 $('#browser').text(`font size => ${$('html').css('font-size')}`)
 
-if(!isFacebookApp()){
+if(isFacebookApp()){
   $('html').css({
     'font-size': 'small'
   })
