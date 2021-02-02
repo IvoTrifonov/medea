@@ -18,15 +18,16 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
-$('html').css('font-size', "16px");
+$('html').css({
+  'font-size': '16px'
+})
 
 var fs = parseFloat($('html').css('font-size'));
-
-if (fs !== 16) 
-{   
+console.log(fs);
+if (fs !== 16) {
   const dif = fs / 16;
   const result = 16 / dif;
   $('html').css('font-size', `${result}px`);
 }
 
-$('#browser').text(`font size => ${$('html').css('font-size')}`)
+$('#browser').text(`font size => ${$('html').css('font-size')}`);
