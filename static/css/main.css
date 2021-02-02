@@ -145,19 +145,20 @@ input:focus {
     font-size: 0.9375rem;
   }
 }
+*/
 
-@media (max-width: 980px) {
+@media only screen and (max-width: 980px) {
   html {
-    font-size: 0.875rem;
+    font-size: 15px !important;
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   html {
-    font-size: 0.8125rem;
+    font-size: 13px !important;
   }
 
   .page-title {
     font-size: 1.9rem;
   }
-} */
+}
