@@ -18,16 +18,20 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
+let pixels = screen.width < 480 ? 14 : 16;
+
 $('html').css({
-  'font-size': '16px'
+  'font-size': `${pixels}px`
 })
 
 var fs = parseFloat($('html').css('font-size'));
-console.log(fs);
-if (fs !== 16) {
-  const dif = fs / 16;
-  const result = 16 / dif;
+
+if (fs !== pixels) {
+  const dif = fs / pixels;
+  const result = pixels / dif;
   $('html').css('font-size', `${result}px`);
 }
+
+
 
 $('#browser').text(`font size => ${$('html').css('font-size')}`);
