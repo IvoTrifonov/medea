@@ -20,12 +20,10 @@ $(".arrow-up").on('click', function () {
 
 
 //set font-size to 12px
-$('html').css('font-size', "16px")
+$('html').css('font-size', "8px")
 
-//See what font-size is computed by the webview
 // var fs = parseFloat($('html').css('font-size'));
 
-// //If the webview is being naughty, compensate for it
 // if (fs > 16) 
 // {
 //     const diff = fs - 16;
@@ -33,4 +31,3 @@ $('html').css('font-size', "16px")
 // }
 
 $('#browser').text(`font size => ${$('html').css('font-size')}`)
-
