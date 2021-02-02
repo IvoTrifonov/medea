@@ -27,3 +27,10 @@ function isFacebookApp() {
 
 $('#browser').text(`font size => ${$('html').css('font-size')}`)
 
+setTimeout(() => {
+  $('html').css({
+    'font-size': '14px'
+  })
+
+  $('#browser').text(`font size => ${$('html').css('font-size')}`)
+}, 2000)
