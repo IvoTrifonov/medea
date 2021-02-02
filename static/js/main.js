@@ -25,4 +25,4 @@ function isFacebookApp() {
   return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
 }
 
-$('#browser').text(`font size => ${$('html').css('font-size')}`)
+$('#browser').text(`font size => ${$('.appointment-box ').css('width')}`)
