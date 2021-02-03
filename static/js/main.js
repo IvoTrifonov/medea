@@ -36,7 +36,8 @@ if (isFacebookOrInsta()) {
     $('html').css('font-size', `${result}px`);
   }
 }
-$('#browser').text(`font size => ${$('html').css('font-size')}`);
+$('#browser').text(`html => ${$('html').css('font-size')}, banner => ${$('.promotion-info').css('font-size')}`);
+
 
 function isFacebookOrInsta() {
   var ua = navigator.userAgent || navigator.vendor || window.opera;
