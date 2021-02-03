@@ -20,7 +20,7 @@ $(".arrow-up").on('click', function () {
 
 
 
-if (isFacebookApp()) {
+if (isFacebookOrInsta()) {
   let pixels = screen.width < 480 ? 14 : 16;
 
   $('html').css({
@@ -37,7 +37,7 @@ if (isFacebookApp()) {
 }
 $('#browser').text(`font size => ${$('html').css('font-size')}`);
 
-function isFacebookApp() {
+function isFacebookOrInsta() {
   var ua = navigator.userAgent || navigator.vendor || window.opera;
-  return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
+  return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1) || (ua.indexOf('Instagram') > -1);
 }
