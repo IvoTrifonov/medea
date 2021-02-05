@@ -299,8 +299,12 @@
   margin-bottom: 0;
 }
 
+.post-wrapper > h2 {
+  font-size: 1.3rem;
+}
+
 .last-post-wrapper > h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 
