@@ -26,23 +26,25 @@
 
 .procedures-list-title {
   margin: 3em auto 2em auto;
-  border: 0.17rem solid #FFD1DB;
+  border: 0.09em solid #FFD1DB;
   border-radius: 6em;
-  padding: 0.5em 0.5em 0.5em 2.8em;
+  padding: 0.5em 0.5em 0.5em 3em;
+  height: 1.3em;
   position: relative;
   white-space: nowrap;
   font-size: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .procedures-list-title::before {
   display: block;
   content: '';
   position: absolute;
-  left: -0.5%;
-  width: 2.4em;
-  height: 2.4em;
-  top: 53%;
-  transform: translateY(-51%);
+  height: 105%;
+  width: 2.7em;
+  left: -1.35%;
+  top: 0.5%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
