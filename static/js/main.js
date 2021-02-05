@@ -18,21 +18,21 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
-// if (isFacebookOrInsta()) {
-//   let pixels = 16;
+if (isFacebookOrInsta()) {
+  let pixels = 16;
   
-//   $('html').css({
-//     'font-size': `${pixels}px`
-//   })
+  $('html').css({
+    'font-size': `${pixels}px`
+  })
 
-//   var fs = parseFloat($('html').css('font-size'));
+  var fs = parseFloat($('html').css('font-size'));
 
-//   if (fs !== pixels) {
-//     const dif = fs / pixels;
-//     const result = pixels / dif;
-//     $('html').css('font-size', `${result}px`);
-//   }
-// }
+  if (fs !== pixels) {
+    const dif = fs / pixels;
+    const result = pixels / dif;
+    $('html').css('font-size', `${result}px`);
+  }
+}
 
 $('#browser').text(`html => ${$('html').css('font-size')}, banner => ${$('.promotion-info').css('font-size')}, therapyTitle: ${$('#facether').css('font-size')}`);
 
