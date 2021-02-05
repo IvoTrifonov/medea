@@ -1,9 +1,9 @@
 .procedures-list-title::before {
   background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611145751/medea/procedures/body-therapies/ayedsplvldutcosml4rk.png');
-  left: -1.4%;
+  left: -1.8%;
   width: 2.65em;
-  height: 2.65em;
-  top: 55%;
+  height: 108%;
+  top: 54%;
   transform: translateY(-51%);
 }
 

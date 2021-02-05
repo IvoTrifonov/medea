@@ -81,8 +81,8 @@
   transform: translateY(-50%);
   left: 0.5em;
   content: "";
-  width: 2.5em;
-  height: 2.5em;
+  width: 3em;
+  height: 3em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -130,7 +130,6 @@
 }
 
 .copyright-message {
-  margin-top: 0.5em;
   white-space: nowrap;
   color: gray;
   font-size: 0.85rem;
@@ -148,8 +147,8 @@
   position: absolute;
   right: 5%;
   top: -5em;
-  width: 3.9em;
-  height: 3.9em;
+  width: 3.9rem;
+  height: 3.9rem;
   cursor: pointer;
 }
 
@@ -181,7 +180,7 @@
   .footer {
     display: flex;
     flex-direction: column;
-    padding: 0 2em;
+    padding: 0 2em 2em 2em;
   }
 
   .footer-nav {
