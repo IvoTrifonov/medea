@@ -18,8 +18,11 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
+
+
 if (isFacebookOrInsta()) {
-  let pixels = 16;
+  let { width } = screen;
+  let pixels =  width < 480 ? 14 : width < 980 ? 15 : 16;
   
   $('html').css({
     'font-size': `${pixels}px`
@@ -34,7 +37,7 @@ if (isFacebookOrInsta()) {
   }
 }
 
-$('#browser').text(`html => ${$('html').css('font-size')}, banner => ${$('.promotion-info').css('font-size')}, therapyTitle: ${$('#facether').css('font-size')}`);
+$('#browser').text(`html => ${$('html').css('font-size')}, banner => ${$('.promotion-info').css('font-size')}, width: ${screen.width}px`);
 
 
 function isFacebookOrInsta() {

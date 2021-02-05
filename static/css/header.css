@@ -225,7 +225,7 @@
     .appointment-box {
       align-items: center;
       justify-content: space-evenly;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
 
     .appointment-box > span:nth-child(2) {
