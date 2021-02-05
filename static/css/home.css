@@ -308,10 +308,6 @@
   text-align: center;
 }
 
-.last-post-wrapper p {
-  font-size: 0.9rem;
-}
-
 /* partners box */
 .partners h2 {
   text-align: center;
@@ -393,7 +389,7 @@
   .voucher-info { font-size: 0.9rem; }
   .short-desc { 
     width: 90%; 
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .choose-us-box {
@@ -412,6 +408,11 @@
   .moreinfo-box a span {
     padding-top: 0.6em;
   }
+
+  .last-post-wrapper p {
+    font-size: 0.9rem;
+  }
+  
 
   .partners-list {
     flex-wrap: wrap;
