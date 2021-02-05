@@ -43,8 +43,8 @@ iframe {
   transform: translateY(-10%);
   left: 0.5em;
   content: "";
-  width: 45px;
-  height: 45px;
+  width: 2.3em;
+  height: 2.3em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -83,8 +83,8 @@ iframe {
 
 .contacts-grid .follow-us a {
   margin: 1em;
-  width: 45px;
-  height: 45px;
+  width: 2.5em;
+  height: 2.5em;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
