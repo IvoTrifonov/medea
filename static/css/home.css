@@ -5,6 +5,7 @@
   margin: 1.5rem auto 1rem auto;
   text-align: center;
   line-height: 1.5em;
+  font-size: 0.9rem;
 }
 
 .short-desc span { font-weight: 500; }
@@ -303,8 +304,12 @@
 }
 
 .last-post-wrapper > h2 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   text-align: center;
+}
+
+.last-post-wrapper p {
+  font-size: 0.9rem;
 }
 
 /* partners box */
