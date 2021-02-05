@@ -34,7 +34,7 @@ if (isFacebookOrInsta()) {
   }
 }
 
-$('#browser').text(`html => ${$('html').css('font-size')}, banner => ${$('.promotion-info').css('font-size')}, width: ${screen.width}px`);
+$('#browser').text(`html => ${$('html').css('font-size')}, banner => ${$('.promotion-info').css('font-size')}, therapyTitle: ${$('#facether').css('font-size')}`);
 
 
 function isFacebookOrInsta() {

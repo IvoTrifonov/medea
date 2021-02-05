@@ -136,18 +136,13 @@ input:focus {
   }
 }
 
-
 @media only screen and (max-width: 980px) {
   html {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 480px) {
-  html {
-    font-size: 13px;
-  }
-  
   .page-title {
     font-size: 1.9rem;
   }

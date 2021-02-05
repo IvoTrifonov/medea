@@ -380,7 +380,7 @@
 
 @media (max-width: 640px) {
   .services-container > h1 { font-size: 1.55rem; }
-  .service-box h3 { font-size: 1.22rem; }
+  .service-box h3 { font-size: 1.2rem; }
   .promotion-info { font-size: 1rem; }
   .home-gallery  { width: 100%; }
   .lSSlideWrapper { border-radius: 0; }
