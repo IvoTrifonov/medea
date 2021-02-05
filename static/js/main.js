@@ -22,7 +22,8 @@ $(".arrow-up").on('click', function () {
 
 if (isFacebookOrInsta()) {
   let { width } = screen;
-  let pixels = width < 361 ? 13 : width < 480 ? 14 : width < 980 ? 15 : 16;
+  // let pixels = width < 361 ? 13 : width < 480 ? 14 : width < 980 ? 15 : 16;
+  let pixels = width < 980 ? 15 : 16;
   
   $('html').css({
     'font-size': `${pixels}px`
@@ -36,6 +37,7 @@ if (isFacebookOrInsta()) {
     $('html').css('font-size', `${result}px`);
   }
 }
+
 $('#browser').text(`html => ${$('html').css('font-size')}, banner => ${$('.promotion-info').css('font-size')}, width: ${screen.width}px`);
 
 
