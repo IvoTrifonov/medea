@@ -18,8 +18,6 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
-
-
 if (isFacebookOrInsta()) {
   let pixels = 16;
   

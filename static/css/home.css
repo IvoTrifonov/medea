@@ -36,7 +36,7 @@
 }
 
 .service-box h3 {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   min-height: 3em;
   font-weight: normal;
 }
@@ -89,7 +89,6 @@
 
 .moreinfo-box p {
   text-align: center;
-  font-size: 1.1rem;
 }
 
 .moreinfo-box a {
@@ -381,7 +380,7 @@
 
 @media (max-width: 640px) {
   .services-container > h1 { font-size: 1.55rem; }
-  .service-box h3 { font-size: 1.1rem; }
+  .service-box h3 { font-size: 1.22rem; }
   .promotion-info { font-size: 1rem; }
   .home-gallery  { width: 100%; }
   .lSSlideWrapper { border-radius: 0; }
@@ -404,8 +403,6 @@
   .moreinfo-box a {
     font-size: 1.2rem;
   }
-
-  .moreinfo-box p { font-size: 1rem; }
 
   .moreinfo-box a span {
     padding-top: 0.6em;
