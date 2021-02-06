@@ -5,6 +5,7 @@
   margin: 1.5rem auto 1rem auto;
   text-align: center;
   line-height: 1.5em;
+  font-size: 0.9rem;
 }
 
 .short-desc span { font-weight: 500; }
@@ -89,6 +90,7 @@
 
 .moreinfo-box p {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .moreinfo-box a {
@@ -401,6 +403,10 @@
 
   .moreinfo-box a {
     font-size: 1.3rem;
+  }
+
+  .moreinfo-box p {
+    font-size: 1rem;
   }
 
   .moreinfo-box a span {
