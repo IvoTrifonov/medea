@@ -18,11 +18,9 @@ $(".arrow-up").on('click', function () {
   }, 1000);
 });
 
-
-
 if (isFacebookOrInsta()) {
   let { width } = screen;
-  let pixels = width < 980 ? 17 : 18;
+  let pixels = 16;
   
   $('html').css({
     'font-size': `${pixels}px`
@@ -35,9 +33,9 @@ if (isFacebookOrInsta()) {
     const result = pixels / dif;
     $('html').css('font-size', `${result}px`);
   }
+  
+  $('style').append("@media (max-width: 980px) {html{ font-size:14px; }}")
 }
-
-$('#browser').text(`html => ${$('html').css('font-size')}, banner => ${$('.promotion-info').css('font-size')}, width: ${screen.width}px`);
 
 
 function isFacebookOrInsta() {
