@@ -19,7 +19,6 @@ $(".arrow-up").on('click', function () {
 });
 
 if (isFacebookOrInsta()) {
-  let { width } = screen;
   let pixels = 16;
   
   $('html').css({
@@ -33,7 +32,7 @@ if (isFacebookOrInsta()) {
     const result = pixels / dif;
     $('html').css('font-size', `${result}px`);
   }
-  
+
   $('style').append("@media (max-width: 980px) {html{ font-size:14px; }}")
 }
 

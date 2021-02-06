@@ -143,6 +143,10 @@ input:focus {
 }
 
 @media (max-width: 480px) {
+  html {
+    font-size: 13.5px;
+  }
+
   .page-title {
     font-size: 1.9rem;
   }
