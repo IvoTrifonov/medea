@@ -22,7 +22,7 @@ $(".arrow-up").on('click', function () {
 
 if (isFacebookOrInsta()) {
   let { width } = screen;
-  let pixels =  width < 480 ? 14 : width < 980 ? 15 : 16;
+  let pixels = width < 980 ? 15 : 16;
   
   $('html').css({
     'font-size': `${pixels}px`
