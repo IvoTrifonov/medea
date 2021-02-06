@@ -5,7 +5,6 @@
   margin: 1.5rem auto 1rem auto;
   text-align: center;
   line-height: 1.5em;
-  font-size: 0.9rem;
 }
 
 .short-desc span { font-weight: 500; }
@@ -93,12 +92,13 @@
 }
 
 .moreinfo-box a {
-  width: 12.5em;
+  border: 1px solid red;
+  width: 14em;
   white-space: nowrap;
   font-size: 1.5rem;
   margin: 1em auto 0 auto;
   display: flex;
-  height: 6rem;
+  height: 10rem;
   align-items: center;
   justify-content: center;
   background: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611244036/medea/home/vdiqn76ektcc7ejxserb.png') no-repeat center;
@@ -304,7 +304,7 @@
 }
 
 .last-post-wrapper > h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
 }
 
@@ -389,7 +389,6 @@
   .voucher-info { font-size: 0.9rem; }
   .short-desc { 
     width: 90%; 
-    font-size: 0.8rem;
   }
 
   .choose-us-box {
@@ -402,17 +401,12 @@
   .choose-us-box h4 { font-size: 1.1rem; }
 
   .moreinfo-box a {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .moreinfo-box a span {
     padding-top: 0.6em;
   }
-
-  .last-post-wrapper p {
-    font-size: 0.9rem;
-  }
-  
 
   .partners-list {
     flex-wrap: wrap;
