@@ -88,9 +88,9 @@
   .appointment-box>span:nth-child(2)::before {
     display: block;
     position: absolute;
-    left: 3%;
+    left: 1%;
     top: 50%;
-    transform: translate(-3%, -50%);
+    transform: translate(-1%, -50%);
     content: "";
     width: 1.5em;
     height: 100%;
