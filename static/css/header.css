@@ -249,7 +249,7 @@
     }
   }
 
-  @media (max-width: 800px) { 
+  @media (max-width: 810px) { 
     .company-phrase {
       left: unset;
       right: 58%;
@@ -269,7 +269,7 @@
     .site-logo { width: 6em; }
     .company-phrase {  top: 47%; }
     .company-phrase h2 {  font-size: 1.5rem; } 
-    /* .appointment-box>span:nth-child(2)::before {
-      left: 10%;
-    } */
+    .appointment-box>span:nth-child(2)::before {
+      left: 11%;
+    }
   }
