@@ -34,7 +34,7 @@ if (isFacebookOrInsta()) {
   }
 
   $('style').append("@media (max-width: 980px) {html{ font-size:15px; }}");
-  $('style').append("@media (max-width: 360px) {.procedures-list{ font-size: 14px; }}")
+  $('style').append("@media (max-width: 380px) {.procedures-list p a{ font-size:22px; }}")
 }
 
 
