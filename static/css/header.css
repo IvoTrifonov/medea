@@ -99,7 +99,7 @@
   }
 
   .social-media {
-    width: 50%;
+    width: 65%;
     height: 1.7em;
     margin-right: 1.85em;
     display: flex;
@@ -148,7 +148,7 @@
     font-weight: normal;
     font-size: 1.12rem;
     line-height: 2.2em;
-    margin: 18% auto 1.4rem auto;
+    margin: 15% auto 1.4rem auto;
   }
 
   .company-phrase p span { font-weight: bold; }
