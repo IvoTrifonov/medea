@@ -10,13 +10,6 @@
   text-align: center;
 }
 
-@media (max-width: 580px) {
-  /* .procedures-list-wrapper > h2 {
-    margin-bottom: 3.5em;
-    font-size: 1.7rem;
-  } */
-}
-
 .manual .procedure-wrapper:first-child  .procedure::before {
   background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611173726/medea/procedures/body-therapies/gou6jopaoyt13jvqiizd.png');
 }
