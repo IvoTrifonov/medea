@@ -74,6 +74,7 @@
 }
 
 .procedure-title a {
+  display: block;
   font-weight: bold;
 }
 
