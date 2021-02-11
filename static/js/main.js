@@ -14,7 +14,7 @@ $(document).on('ready', function () {
 
 $(function () {
   $(document).on('scroll', function () {
-    $(this).scrollTop() > 300 ? $('.arrow-up').addClass('show') : $('.arrow-up').removeClass('show')
+    $(this).scrollTop() > 400 ? $('.arrow-up').addClass('show') : $('.arrow-up').removeClass('show')
   });
 
   $('.arrow-up').on('click', function () {
