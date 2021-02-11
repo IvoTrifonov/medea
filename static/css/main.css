@@ -114,8 +114,8 @@ input:focus {
   z-index: 999;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
-  right: 2em;
-  bottom: 2em;
+  right: 1.8em;
+  bottom: 1.8em;
   width: 3.2em;
   height: 3.2em;
   opacity: 0;
@@ -168,11 +168,6 @@ input:focus {
 @media (max-width: 480px) {
   html {
     font-size: 13.5px;
-  }
-
-  .arrow-up {
-    width: 11%;
-    height: 11%;
   }
 
   .page-title {
