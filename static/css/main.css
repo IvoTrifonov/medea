@@ -115,7 +115,6 @@ input:focus {
   bottom: 8%;
   width: 3.8rem;
   height: 3.8rem;
-  visibility: hidden;
   cursor: pointer;
 }
  
