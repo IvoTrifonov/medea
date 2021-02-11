@@ -13,6 +13,7 @@ body {
   font-weight: 100;
   font-family: 'Rubik', sans-serif;
   overflow-x: hidden;
+  overflow:auto;
   text-rendering: optimizeLegibility;
   position: relative;
 }
