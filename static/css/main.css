@@ -13,7 +13,6 @@ body {
   font-weight: 100;
   font-family: 'Rubik', sans-serif;
   overflow-x: hidden;
-  overflow:auto;
   text-rendering: optimizeLegibility;
   position: relative;
 }
@@ -112,11 +111,13 @@ input:focus {
   background: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611136985/medea/rxzpqck3dtairep2msev.png') no-repeat center;
   background-size: contain;
   position: fixed;
+  z-index: 999;
+  transform: translateZ(0);
   -webkit-transform: translateZ(0);
   right: 3%;
   bottom: 5%;
-  width: 3.8rem;
-  height: 3.8rem;
+  width: 3.8em;
+  height: 3.8em;
   opacity: 0;
   visibility: hidden;
   cursor: pointer;
