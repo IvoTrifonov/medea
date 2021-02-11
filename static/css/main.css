@@ -114,8 +114,8 @@ input:focus {
   z-index: 999;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
-  right: 2em;
-  bottom: 2em;
+  right: 2.5em;
+  bottom: 2.5em;
   width: 3em;
   height: 3em;
   opacity: 0;
