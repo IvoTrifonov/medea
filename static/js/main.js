@@ -14,12 +14,12 @@ $(document).on('ready', function () {
 
 $(function () {
   $(document).on('scroll', function () {
-    if ($(this).scrollTop() > 380) {
+    if ($(this).scrollTop() > 300) {
 
-      $('.arrow-up').fadeIn()
+      $('.arrow-up').fadeIn();
       
     } else {
-      $('.arrow-up').fadeOut()
+      $('.arrow-up').fadeOut();
     }
   });
 
