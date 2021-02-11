@@ -12,27 +12,29 @@ $(document).on('ready', function () {
   }, 100);
 });
 
-$(function () { 
+$(function () {
   $(document).on('scroll', function () {
-      if ($(this).scrollTop() > 350) {
-          $('.arrow-up').fadeIn();
-      } else {
-          $('.arrow-up').fadeOut();
-      }
+    if ($(this).scrollTop() > 380) {
+
+      $('.arrow-up').css({ 'visibility': 'visible' }).fadeIn()
+      
+    } else {
+      $('.arrow-up').fadeOut()
+    }
   });
 
   // scroll body to 0px on click
   $('.arrow-up').on('click', function () {
-      $('body,html').animate({
-          scrollTop: 0
-      }, 1000);
-      return false;
+    $('body,html').animate({
+      scrollTop: 0
+    }, 1000);
+    return false;
   });
 });
 
 if (isFacebookOrInsta()) {
   let pixels = 16;
-  
+
   $('html').css({
     'font-size': `${pixels}px`
   })
