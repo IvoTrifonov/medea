@@ -12,10 +12,22 @@ $(document).on('ready', function () {
   }, 100);
 });
 
-$(".arrow-up").on('click', function () {
-  $("html, body").animate({
-    scrollTop: 0
-  }, 1000);
+$(function () { 
+  $(document).on('scroll', function () {
+      if ($(this).scrollTop() > 350) {
+          $('.arrow-up').fadeIn();
+      } else {
+          $('.arrow-up').fadeOut();
+      }
+  });
+
+  // scroll body to 0px on click
+  $('.arrow-up').on('click', function () {
+      $('body,html').animate({
+          scrollTop: 0
+      }, 1000);
+      return false;
+  });
 });
 
 if (isFacebookOrInsta()) {
