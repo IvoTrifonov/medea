@@ -12,19 +12,18 @@ $(document).on('ready', function () {
   }, 100);
 });
 
-$(function () {
-  $(document).on('scroll', function () {
-    $(this).scrollTop() > 300 ? $('.arrow-up').addClass('show') : $('.arrow-up').removeClass('show')
-  });
+// $(function () {
+//   $(document).on('scroll', function () {
+//     $(this).scrollTop() > 300 ? $('.arrow-up').addClass('show') : $('.arrow-up').removeClass('show')
+//   });
 
-  // scroll body to 0px on click
-  $('.arrow-up').on('click', function () {
-    $('body,html').animate({
-      scrollTop: 0
-    }, 1000);
-    return false;
-  });
-});
+//   $('.arrow-up').on('click', function () {
+//     $('body,html').animate({
+//       scrollTop: 0
+//     }, 1000);
+//     return false;
+//   });
+// });
 
 if (isFacebookOrInsta()) {
   let pixels = 16;
