@@ -115,9 +115,15 @@ input:focus {
   bottom: 8%;
   width: 3.8rem;
   height: 3.8rem;
-  opacity: 0.8;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.arrow-up.show {
+  visibility: visible;
+  opacity: 1;
 }
  
 @media (min-width: 2000px) {

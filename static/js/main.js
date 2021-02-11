@@ -14,13 +14,7 @@ $(document).on('ready', function () {
 
 $(function () {
   $(document).on('scroll', function () {
-    if ($(this).scrollTop() > 300) {
-
-      $('.arrow-up').fadeIn();
-      
-    } else {
-      $('.arrow-up').fadeOut();
-    }
+    $(this).scrollTop() > 300 ? $('.arrow-up').addClass('show') : $('.arrow-up').removeClass('show')
   });
 
   // scroll body to 0px on click
