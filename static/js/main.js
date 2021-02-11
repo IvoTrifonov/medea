@@ -16,7 +16,7 @@ $(function () {
   $(document).on('scroll', function () {
     if ($(this).scrollTop() > 380) {
 
-      $('.arrow-up').css({ 'visibility': 'visible' }).fadeIn()
+      $('.arrow-up').fadeIn()
       
     } else {
       $('.arrow-up').fadeOut()
