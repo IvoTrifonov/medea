@@ -108,9 +108,7 @@
     <h2>Актуално</h2>
     <div class="post-wrapper">
       <h2 class="post-title">{{post.title}}</h2>
-      {{#if post.imageURL}}
-        <img src={{post.imageURL}} alt="" class="post-image" />
-      {{/if}}
+      <img src="{{post.imageURL}}" alt="image of the article" class="post-image" />
       <ul class="post-description-list">
         {{#each post.description}}
         <li>
