@@ -17,12 +17,13 @@ $(function () {
     $(this).scrollTop() > 400 ? $('.arrow-up').addClass('show') : $('.arrow-up').removeClass('show')
   });
 
-  $('.arrow-up').on('click', function () {
-    $('body,html').animate({
-      scrollTop: 0
-    }, 1000);
-    return false;
-  });
+  $('.arrow-up')
+    .on('click', function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 1000);
+      return false;
+    });
 });
 
 if (isFacebookOrInsta()) {
