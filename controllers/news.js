@@ -30,7 +30,7 @@ module.exports = {
           const post = {
             title: data.title,
             description: data.description.split(/\n\s*\n/),
-            imageURL: data.imageURL,
+            imageURL: data.imageURL.replace(/^http:\/\//i, 'https://'),
           }
 
           res.render('post', { pageTitle: 'Новина', post });
