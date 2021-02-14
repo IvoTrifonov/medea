@@ -26,7 +26,7 @@ axios(clodunaryURLandPresetOptions).then(res => {
     }).then(image => {
       $("<input type='text' />").attr({
         name: 'imageURL',
-        value: image.data.url
+        value: image.data.url.replace(/^http:\/\//i, 'https://')
       }).hide().appendTo('#articleForm fieldset');
     }).catch();
 

@@ -13,7 +13,7 @@ module.exports = {
           id: post._id,
           title: post.title,
           description: shortDesc.substring(0, shortDesc.lastIndexOf('.') + 1),
-          imageURL: post.imageURL.replace(/^http:\/\//i, 'https://'),
+          imageURL: post.imageURL,
           createdAt: getFormattedDate(post.createdAt, '/')
         }
       })
@@ -30,7 +30,7 @@ module.exports = {
           const post = {
             title: data.title,
             description: data.description.split(/\n\s*\n/),
-            imageURL: data.imageURL.replace(/^http:\/\//i, 'https://'),
+            imageURL: data.imageURL
           }
 
           res.render('post', { pageTitle: 'Новина', post });
