@@ -13,7 +13,7 @@ module.exports = {
           const post = {
             title: latestPost.title,
             description: latestPost.description.split(/\n\s*\n/),
-            imageURL: latestPost.imageURL,
+            imageURL: latestPost.imageURL.replace(/^http:\/\//i, 'https://')
           }
 
           models.Promotion.find()

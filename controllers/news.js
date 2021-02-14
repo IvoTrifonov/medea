@@ -13,7 +13,7 @@ module.exports = {
           id: post._id,
           title: post.title,
           description: shortDesc.substring(0, shortDesc.lastIndexOf('.') + 1),
-          imageURL: post.imageURL,
+          imageURL: post.imageURL.replace(/^http:\/\//i, 'https://'),
           createdAt: getFormattedDate(post.createdAt, '/')
         }
       })
