@@ -109,3 +109,7 @@
 .procedure-wrapper:nth-child(27) .procedure::before {
   background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1611149363/medea/procedures/face-therapies/mbg3wca9sv2rfzn3i52d.png');
 }
+
+.procedure-wrapper:nth-child(28) .procedure::before {
+  background-image: url('https://res.cloudinary.com/dd2an9hq9/image/upload/v1651729098/medea/procedures/face-therapies/gynwwzdmyjqws4qaayrv.png');
+}
