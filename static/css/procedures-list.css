@@ -64,6 +64,18 @@
   padding-top: 5em;
 }
 
+.benefits-wrapper {
+  margin-top: 1.3rem;
+}
+
+.mb {
+  margin-bottom: 1.3rem;
+}
+
+.bolded {
+  font-weight: 400;
+}
+
 .procedure {
   background-color: rgb(255, 250, 251);
   margin: 0 1em 3em 1em;
