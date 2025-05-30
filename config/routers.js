@@ -3,6 +3,7 @@ const routers = require('../routers');
 module.exports = (app) => {
   app.use('/', routers.home);
   app.use('/photoepilation', routers.photoepilation);
+  app.use('/laserepilation', routers.laserepilation);
   app.use('/contacts', routers.contacts);
   app.use('/procedures', routers.procedures);
   app.use('/saltroom', routers.saltroom);

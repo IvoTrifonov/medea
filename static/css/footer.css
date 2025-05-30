@@ -48,6 +48,10 @@
   text-align: center;
 }
 
+.footer-contacts span a {
+  font-family: 'Rubik', sans-serif;
+}
+
 .contacts-wrapper {
   padding: 0 1.2em;
   display: flex;
