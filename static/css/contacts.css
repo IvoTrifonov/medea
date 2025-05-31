@@ -67,6 +67,10 @@ iframe {
   margin: 0.5em 0;
 }
 
+.contacts p a {
+  font-family: 'Rubik', sans-serif;
+}
+
 .contacts-grid .follow-us {
   grid-column-start: span 2;
   padding: 2em;

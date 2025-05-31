@@ -43,6 +43,7 @@ module.exports = {
             pageTitle: 'Редактирай',
             post: {
               title: post.title,
+              shortDescription: post.shortDescription,
               description: post.description,
               imageURL: post.imageURL,
               createdAt: post.createdAt,
