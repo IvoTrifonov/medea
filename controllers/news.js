@@ -7,12 +7,10 @@ module.exports = {
      models.Post.find().sort({ createdAt: -1 }).then(data => {
       
       const posts = data.map(post => {
-        const shortDesc = post.description.substring(0, 230);
-      
         return {
           id: post._id,
           title: post.title,
-          description: shortDesc.substring(0, shortDesc.lastIndexOf('.') + 1),
+          shortDescription: post.shortDescription,
           imageURL: post.imageURL,
           createdAt: getFormattedDate(post.createdAt, '/')
         }

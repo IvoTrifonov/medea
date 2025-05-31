@@ -30,15 +30,15 @@ axios(clodunaryURLandPresetOptions).then(res => {
       }).hide().appendTo('#articleForm fieldset');
     }).catch();
 
-    if ($('#title').val().length > 4 && $('#description').val().length > 20 && file) {
+    if ($('#title').val().length > 4 && $('#description').val().length > 20 && $('#shortDescription').val().length > 10 && file) {
       setTimeout(() => {
         $('#submit').prop('disabled', false);
       }, 2000)
     }
   });
 
-  $('#title, #description').on('blur keyup', function () {
-    if ($('#title').val().length > 4 && $('#description').val().length > 20 && file) {
+  $('#title, #description, #shortDescription').on('blur keyup', function () {
+    if ($('#title').val().length > 4 && $('#description').val().length && $('#shortDescription').val().length > 10 && file) {
       $('#submit').prop('disabled', false);
       return;
     }

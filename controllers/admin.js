@@ -18,6 +18,7 @@ module.exports = {
           posts = posts.map(post => {
             return {
               title: post.title,
+              shortDescription: post.shortDescription,
               description: post.description.split(/\n\s*\n/),
               imageURL: post.imageURL,
               createdAt: getFormattedDate(post.createdAt, '/'),
